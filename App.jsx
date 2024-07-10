@@ -1,11 +1,12 @@
 import React from 'react';
-import Basket from './Basket';
-import './index.css';
+import './App.css/';
 
 function App() {
   return (
     <div className="App">
-      <Basket />
+      <header className="App-header">
+        <h1>Welcome to React</h1>
+      </header>
     </div>
   );
 }
